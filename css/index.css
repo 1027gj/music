@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#head{
+	width: 350px;
+	height: 600px;
+	background:#F1EFE4;
+	position: relative;
+}
+
+.head{
+	width: 315px;
+	height:36px ;
+	padding-top: 40px;
+	margin: 0 auto;
+}
+.head .one{
+	float: left;
+	
+}
+.head .two{
+	float: right;
+	
+}
+#head .modde{
+	width: 290px;
+
+	margin: 0 auto;
+	padding: 3px auto;
+}
+#head .modde img{
+	float: left;
+	margin-top: 60px;
+}
+.modde .three{
+	padding-top: 8px;
+}
+
+#play,#pause{
+position: absolute;
+left: 150px;
+bottom: 60px;
+	margin: auto;
+}
+#prev{
+position: absolute;
+left:100px;
+bottom: 60px;
+	
+}
+#next{
+position: absolute;
+right:100px;
+bottom: 60px;
+	
+}
+
+#progress,#volume{
+	width: 230px;
+	margin: 20px auto;
+	box-sizing: border-box;
+	margin-left:65px;
+	border: 3px solid red;
+
+	position: relative;
+		position: absolute;
+
+	bottom: 120px;
+}
+#p-i,#v-i{
+	width: 20px;
+	height: 20px;
+	background: black;
+	position: absolute;
+	border-radius: 50%;
+	top: -9px;
+}
+#p-i{
+	left: -10px;
+}
+#v-i{
+	right: -10px;
+}
+#current-time{
+	left: 10px;
+	position: absolute;
+	bottom: 135px;
+}
+#duration{
+	right:0;
+	position: absolute;
+	bottom: 135px;
+}
+#time{
+	width: 330px;
+	height: 18px;
+}
+.active{
+	color: red;
+}
+#ul{
+	margin: 20px;
+	padding-left: 60px;
+	padding-top: 60px;
+}
+#ul li{
+	margin-top: 10px;
+	
+}
+#ul li span{
+	margin-right: 30px;
+	cursor: pointer;
+}
+#vol {
+  width: 5rem;
+  box-sizing: border-box;
+  height: 0.2rem;
+  border: 1px solid violet;
+  background: violet;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  position: relative;
+  border-radius: 8px;
+}
+
+#volmun #vol #vI {
+  width:100%;
+  height: 20px;
+  background: blue;
+  /*opacity: 0.8;*/
+  position: absolute;
+  border-radius: 50%;
+  /*top: -0.15rem;*/
+  /*right: -10px;*/
+}
+.footer{
+bottom: 40px;
+left: 0;
+	position: absolute;
+}
